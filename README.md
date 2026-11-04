@@ -1,7 +1,5 @@
 # Chabi.lol
 
-A personal portfolio for Mmasechaba Francesca Seopa, Technical Systems Analyst in Johannesburg. It includes live projects, professional case studies, experience, education and contact details.
-
 ## Run locally
 
 Serve the static site from this directory.
