@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="228" viewBox="0 0 540 228" fill="none">
+  <title>A miniature Rose Query editor showing a SQLite query on the products table</title>
+  <rect width="540" height="228" fill="#e1e5dc"/>
+  <rect x="59" y="38" width="423" height="159" rx="5" fill="#cdd4c9"/>
+  <rect x="58.5" y="33.5" width="423" height="159" rx="5" fill="#313936" stroke="#505a50"/>
+  <path d="M59 67h422" stroke="#54605a"/>
+  <g fill="#b6c3b7">
+    <circle cx="75" cy="50" r="2.8"/><circle cx="85" cy="50" r="2.8" opacity=".7"/><circle cx="95" cy="50" r="2.8" opacity=".46"/>
+  </g>
+  <text x="270" y="54" fill="#e3e7df" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">Rose Query</text>
+  <g font-family="monospace" font-size="13">
+    <g fill="#a9b3a9" font-size="11"><text x="83" y="94">1</text><text x="83" y="116">2</text><text x="83" y="138">3</text><text x="83" y="160">4</text></g>
+    <g fill="#f0eee2" xml:space="preserve">
+      <text x="109" y="94"><tspan fill="#e4bac6">SELECT</tspan> name, category, price</text>
+      <text x="109" y="116"><tspan fill="#e4bac6">FROM</tspan> products</text>
+      <text x="109" y="138"><tspan fill="#e4bac6">WHERE</tspan> price &lt; <tspan fill="#ebd5a7">300</tspan></text>
+      <text x="109" y="160"><tspan fill="#e4bac6">ORDER BY</tspan> price;</text>
+    </g>
+  </g>
+</svg>

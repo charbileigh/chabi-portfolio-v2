@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mmasechaba Francesca Seopa (Chabi), a Technical Systems Analyst in Johannesburg. Explore her software projects, Scrum research and work on telecoms, IoT and AI product delivery.">
+  <meta name="theme-color" content="#faf8f4">
+  <title>Chabi Seopa · Systems, software &amp; quality</title>
+  <link rel="icon" href="assets/flower-mark.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/newsreader-latin.woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="script.js?v=2" defer></script>
+</head>
+<body id="top">
+  <svg xmlns="http://www.w3.org/2000/svg" class="symbols" aria-hidden="true">
+    <symbol id="arrow-out" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M12 20V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+    <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+  </svg>
+  <dialog class="welcome" id="welcome" aria-labelledby="welcome-name" aria-describedby="welcome-note">
+    <div class="welcome-inner">
+      <p class="welcome-eyebrow">Welcome to my portfolio</p>
+      <svg class="welcome-flower" viewBox="0 0 112 118" width="112" height="118" aria-hidden="true">
+        <defs>
+          <g id="welcome-petal">
+            <path d="M-1-4C-5-9-10-18-10-25Q-10-32-6-30Q-4-34-1-31Q1-35 4-31Q8-33 9-27C11-20 5-9 1-4Z" fill="#dfb4b5" stroke="#855766" stroke-width=".9"/>
+            <path d="M-1-5Q-5-17-6-27M0-5Q-1-18 0-29M1-6Q6-19 6-25" fill="none" stroke="#946875" stroke-width=".55"/>
+          </g>
+        </defs>
+        <path class="welcome-stem" d="M43 112C44 99 69 78 60 40" fill="none" stroke="#70765e" stroke-width="1.7" pathLength="1"/>
+        <g class="welcome-leaves" fill="#bdc1a7" stroke="#737963" stroke-width=".9">
+          <path d="M53 92Q39 87 33 73Q49 76 53 92Z"/><path d="M61 72Q72 63 82 62Q75 73 61 74Z"/>
+          <path d="m36 76 16 14m12-18 15-8" fill="none"/>
+        </g>
+        <g transform="translate(59 39) rotate(12)">
+          <g class="welcome-corolla">
+            <use href="#welcome-petal"/>
+            <use href="#welcome-petal" transform="rotate(92) scale(.98 .94)"/>
+            <use href="#welcome-petal" transform="rotate(181) scale(.99 .92)"/>
+            <use href="#welcome-petal" transform="rotate(271) scale(.95 1)"/>
+            <use href="#welcome-petal" transform="rotate(46) scale(.94 1.03)"/>
+            <use href="#welcome-petal" transform="rotate(138) scale(.98 .92)"/>
+            <use href="#welcome-petal" transform="rotate(224) scale(.96 .97)"/>
+            <use href="#welcome-petal" transform="rotate(317)"/>
+            <circle r="6" fill="#c8a572" stroke="#886c51" stroke-width=".8"/>
+            <path d="M-3-2h1m2-1h1m1 3h1m-4 2h1m-4-1h1" stroke="#8e734e" stroke-width="1.3" stroke-linecap="round"/>
+          </g>
+        </g>
+      </svg>
+      <h2 id="welcome-name"><span>Mmasechaba</span> <em>Francesca Seopa</em></h2>
+      <p id="welcome-note">You can call me Chabi.</p>
+      <form method="dialog"><button class="enter" type="submit" autofocus>Enter portfolio <svg class="icon" aria-hidden="true"><use href="#arrow-down"/></svg></button></form>
+    </div>
+  </dialog>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="#top" aria-label="Chabi.lol, back to top"><img src="assets/flower-mark.svg" width="29" height="29" alt="">chabi.lol</a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Work</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact"><span class="nav-contact-label">Contact</span> <svg class="icon" aria-hidden="true"><use href="#mail"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="byline"><span aria-hidden="true"></span> Mmasechaba Francesca Seopa</p>
+        <h1 id="hero-title">Hi, I’m <em>Chabi.</em></h1>
+        <p class="lead">I’m a Technical Systems Analyst in Johannesburg. I like sitting with a client to understand what they need, then tracing a workflow, an API call or a database record to see how the system actually works.</p>
+        <p class="hero-personal">I work on telecoms and IoT platforms. Outside work, I build small browser tools and research how teams test software in Scrum.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">Explore my work <svg class="icon" aria-hidden="true"><use href="#arrow-down"/></svg></a>
+          <a class="story-link" href="#about">A bit about me <span aria-hidden="true">→</span></a>
+          <button class="replay" id="replay-welcome" type="button" hidden><span aria-hidden="true">↺</span> Replay welcome</button>
+        </div>
+      </div>
+      <figure class="specimen">
+        <img src="assets/cosmos.svg" alt="A fine ink drawing of two pale pink cosmos flowers and a bud." width="428" height="294">
+        <figcaption><span>Fig. 01</span><i>Cosmos study</i></figcaption>
+      </figure>
+    </section>
+
+    <section class="work wrap section-rule" id="projects" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="folio"><span>01</span> / Work</p><h2 id="work-title">Selected projects</h2></div>
+        <p>Two tools you can try in your browser.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <a class="cover" href="https://charbileigh.github.io/Petal-trace-traceability-board/" target="_blank" rel="noopener noreferrer" aria-label="Open the Petal Trace demo in a new tab">
+            <img src="assets/trace-board.svg" alt="Preview of requirements and their test coverage in Petal Trace." width="540" height="228">
+          </a>
+          <div class="feature-copy">
+            <p class="category">Requirements &amp; testing</p><h3>Petal Trace</h3>
+            <p>When a requirement changes, which tests need another look? I built Petal Trace to connect requirements, test cases and defects so I can see the gaps in coverage.</p>
+            <div class="project-links"><a href="https://charbileigh.github.io/Petal-trace-traceability-board/" target="_blank" rel="noopener noreferrer">Live demo <span class="sr">for Petal Trace (new tab)</span><svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Petal-trace-traceability-board" target="_blank" rel="noopener noreferrer">Source code <span class="sr">for Petal Trace (new tab)</span></a></div>
+          </div>
+        </article>
+        <article class="feature">
+          <a class="cover" href="https://charbileigh.github.io/Rose-query-sql-playground/" target="_blank" rel="noopener noreferrer" aria-label="Open the Rose Query demo in a new tab">
+            <img src="assets/query-editor.svg" alt="Preview of a query filtering products by price in Rose Query." width="540" height="228">
+          </a>
+          <div class="feature-copy">
+            <p class="category">SQL &amp; data</p><h3>Rose Query</h3>
+            <p>I built Rose Query as a place to practise SQL with a small shop database. You can inspect the tables, try a join and see exactly which rows your query returns.</p>
+            <div class="project-links"><a href="https://charbileigh.github.io/Rose-query-sql-playground/" target="_blank" rel="noopener noreferrer">Live demo <span class="sr">for Rose Query (new tab)</span><svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Rose-query-sql-playground" target="_blank" rel="noopener noreferrer">Source code <span class="sr">for Rose Query (new tab)</span></a></div>
+          </div>
+        </article>
+      </div>
+      <details class="disclosure project-index" id="project-index">
+        <summary>More projects <span class="summary-note">Project index</span><span class="toggle" aria-hidden="true"></span></summary>
+        <ul class="index-list">
+          <li><div><strong>Petal Cases</strong><p>Design test cases and export them to CSV.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Petal-cases-case-creation/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Petal Cases (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Petal-cases-case-creation" target="_blank" rel="noopener noreferrer" aria-label="Code for Petal Cases (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Bunny Burrow</strong><p>An offline Pomodoro timer that remembers a session.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Bunny-burrow/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Bunny Burrow (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Bunny-burrow" target="_blank" rel="noopener noreferrer" aria-label="Code for Bunny Burrow (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>PINK LOOP E2E</strong><p>Playwright tests for an online shop, from catalogue to checkout.</p></div>
+            <div class="index-links"><a href="https://github.com/charbileigh/Pink-loop-end-2-end-e-commerce-test-solution" target="_blank" rel="noopener noreferrer" aria-label="Code for PINK LOOP E2E (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>chabi.lol · original edition</strong><p>The earlier edition of this portfolio, including its interactive diagnostic.</p></div>
+            <div class="index-links"><a href="https://chabi.lol/" target="_blank" rel="noopener noreferrer" aria-label="Visit for chabi.lol (new tab)">Visit <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/chabi.lol" target="_blank" rel="noopener noreferrer" aria-label="Code for chabi.lol (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Pink Margins</strong><p>A responsive magazine about philosophy and literature.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Responsive-magazine-layout/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Pink Margins (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Responsive-magazine-layout" target="_blank" rel="noopener noreferrer" aria-label="Code for Pink Margins (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Petal Pops</strong><p>Two-player tic-tac-toe with score tracking.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Petal-pops-tick-tac-toe/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Petal Pops (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Petal-pops-tick-tac-toe" target="_blank" rel="noopener noreferrer" aria-label="Code for Petal Pops (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Petal Pause</strong><p>A mood journal with calendar views and local backups.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Pink-mood-tracker/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Petal Pause (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Pink-mood-tracker" target="_blank" rel="noopener noreferrer" aria-label="Code for Petal Pause (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Coming Soon</strong><p>A countdown landing page.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/pink-themed-coming-soon-page/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Coming Soon (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/pink-themed-coming-soon-page" target="_blank" rel="noopener noreferrer" aria-label="Code for Coming Soon (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Petal Studio</strong><p>A browser drawing app with layers and PNG export.</p></div>
+            <div class="index-links"><a href="https://charbileigh.github.io/Petal-studio-sketch-app/" target="_blank" rel="noopener noreferrer" aria-label="Demo for Petal Studio (new tab)">Demo <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh/Petal-studio-sketch-app" target="_blank" rel="noopener noreferrer" aria-label="Code for Petal Studio (new tab)">Code <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>CSS Bear Art</strong><p>A blinking bear drawn with HTML and CSS.</p></div>
+            <div class="index-links"><a href="https://codepen.io/Francesca4/pen/yyePLEB" target="_blank" rel="noopener noreferrer" aria-label="CodePen for CSS Bear Art (new tab)">CodePen <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+          <li><div><strong>Control room</strong><p>An interactive robot and control room built for CodePen.</p></div>
+            <div class="index-links"><a href="https://codepen.io/Francesca4/pen/QwpKwdE" target="_blank" rel="noopener noreferrer" aria-label="CodePen for Control room (new tab)">CodePen <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div></li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="about wrap split section-rule" id="about" aria-labelledby="about-title">
+      <div class="section-intro" id="profile">
+        <p class="folio"><span>02</span> / Background</p><h2 id="about-title">A bit about me</h2>
+        <p class="about-location"><svg class="icon" aria-hidden="true"><use href="#pin"/></svg> Johannesburg, South Africa</p>
+      </div>
+      <div class="section-content about-copy">
+        <p class="about-lead">I came to software through mechanical and mechatronic engineering. I still like taking something apart to understand how it works. These days, it’s more likely to be a workflow.</p>
+        <p>I studied at the University of Cape Town, where I earned my BSc in Mechanical and Mechatronic Engineering. Working across development, QA and support gave me different ways to look at the same problem. A change can make sense on a diagram and still do something unexpected when real data moves through it.</p>
+        <p>I’m back at UCT for an MCom in Information Systems. I’m researching how testing contributes to project success in Scrum. I’m interested in what people learn from a test and how that shapes their decision to release a change.</p>
+        <p>On the creative side, I like a bit of pink and building things I can actually use. That’s where projects like Bunny Burrow, my offline focus timer, and Petal Studio, my drawing app, fit in.</p>
+        <p class="credentials">ISTQB Certified Tester (Foundation Level) · ECSA Candidate Engineer in Computer Engineering</p>
+        <details class="disclosure" id="toolbox">
+          <summary>Tools and skills<span class="toggle" aria-hidden="true"></span></summary>
+          <dl class="tool-list">
+            <div><dt>Analysis</dt><dd>Requirements, process mapping, data flows, functional specifications and acceptance criteria.</dd></div>
+            <div><dt>Development &amp; data</dt><dd>SQL, PostgreSQL, MariaDB, Python, JavaScript, Bash, REST APIs and DevExpress configuration.</dd></div>
+            <div><dt>Quality &amp; support</dt><dd>Robot Framework, integration and regression testing, UAT, SQL and log investigation, incident triage and release verification.</dd></div>
+            <div><dt>AI delivery</dt><dd>Client use cases, proofs of concept, platform-specific agents, reusable prompts and output evaluation.</dd></div>
+          </dl>
+        </details>
+        <details class="disclosure js-only" id="portfolio-guide" hidden>
+          <summary>Ask about my background<span class="toggle" aria-hidden="true"></span></summary>
+          <div class="detail-body">
+            <form id="question-form"><label for="question">Ask about my experience, research or skills.</label>
+              <div class="input-row"><input id="question" name="question" type="text" maxlength="220" placeholder="What testing tools do you use?" required><button type="submit">Ask</button></div>
+            </form>
+            <p id="answer" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+        </details>
+      </div>
+    </section>
+    <section class="experience wrap split section-rule" id="experience" aria-labelledby="experience-title">
+      <div class="section-intro" id="changelog">
+        <p class="folio"><span>03</span> / Career</p><h2 id="experience-title">Experience</h2>
+        <p>I’ve worked on the same kinds of systems from different sides, first as a developer, then in configuration and L2 support, and now as an analyst.</p>
+      </div>
+      <div class="section-content">
+        <article class="role">
+          <p class="role-meta"><span>Digitata Networks</span><span>Mar 2026 – present</span></p>
+          <h3>Technical Systems Analyst</h3>
+          <p>I work with clients, developers, QA and operations teams to agree on scope and follow changes through configuration, testing, deployment and post-release validation.</p>
+          <dl class="role-scope">
+            <div><dt>Requirements and solution design</dt><dd>I translate business and technical requirements for telecoms and IoT platforms into functional specifications and system changes. I map workflows, integrations and data flows to find gaps and define dependencies before we design the solution.</dd></div>
+            <div><dt>AI product delivery</dt><dd>I help clients identify use cases, define requirements and coordinate proofs of concept. I work with developers on AI agents built for the client’s platform.</dd></div>
+            <div><dt>Testing and release quality</dt><dd>I validate system behaviour, data and integrations with PostgreSQL, REST API checks, functional tests and regression tests. I investigate defects and verify fixes against the original business requirements.</dd></div>
+            <div><dt>Production support and automation</dt><dd>When an application issue is escalated, I use SQL, system logs and API checks to trace the root cause and help resolve it. I also write scripts, automate repeatable checks and improve processes to reduce manual work and make systems more reliable.</dd></div>
+            <div><dt>Reusable AI prompts and skills</dt><dd>I create and refine prompts and skills for structured analysis, writing and review. I check their outputs for accuracy, consistency and whether they suit the task.</dd></div>
+          </dl>
+        </article>
+        <article class="role">
+          <p class="role-meta"><span>Digitata Networks</span><span>Jan 2023 – Mar 2026</span></p>
+          <h3>Configuration Engineer: QA Analyst | L2 Support</h3>
+          <p>I configured telecoms and IoT workflows, automated regression checks and used SQL and API tests to investigate defects. I also handled L2 support and checked changes after deployment.</p>
+        </article>
+        <details class="disclosure">
+          <summary>Earlier roles<span class="toggle" aria-hidden="true"></span></summary>
+          <ol class="earlier-roles">
+            <li><div><strong>Junior Software Developer</strong><span>Digitata Networks</span></div><small>Nov 2022 – Jan 2023</small></li>
+            <li><div><strong>Graduate Engineer — IoT/M2M Platforms &amp; Cybersecurity</strong><span>MTN South Africa</span></div><small>2022</small></li>
+            <li><div><strong>Junior Full Stack Developer</strong><span>MethodData</span></div><small>Dec 2021 – May 2022</small></li>
+            <li><div><strong>New Venture Support Intern</strong><span>UCT Research Contracts &amp; Innovation</span></div><small>Jul – Nov 2021</small></li>
+            <li><div><strong>Asset Care Engineering Intern</strong><span>Pragma Global</span></div><small>Jun – Jul 2019</small></li>
+          </ol>
+        </details>
+        <details class="disclosure" id="case-studies">
+          <summary>Case studies from my work<span class="toggle" aria-hidden="true"></span></summary>
+          <div class="detail-body cases">
+            <p>These anonymised examples reflect recurring work on enterprise systems.</p>
+            <article><h4>From a request to a workflow</h4><p>I clarified the business rules, exceptions and data needs with the people involved, then mapped the workflow and wrote acceptance criteria the team could use to build and test it.</p></article>
+            <article><h4>Tracing a production issue</h4><p>I reproduced the reported behaviour, followed the API request to the database and compared the stored values with what appeared on screen. That gave the team a specific fault to investigate and a way to check the fix.</p></article>
+            <article><h4>Checking a release</h4><p>I reviewed the dependencies, tested the configuration and checked the API and database results. After deployment, I verified that the change behaved as expected.</p></article>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <div><p class="folio"><span>04</span> / Contact</p><h2 id="contact-title">Get in touch<span class="period">.</span></h2></div>
+        <div class="contact-links">
+          <a class="email" href="mailto:chabi.seopa@gmail.com">chabi.seopa@gmail.com <svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a>
+          <div><a href="https://linkedin.com/in/chabi-seopa" target="_blank" rel="noopener noreferrer">LinkedIn <span class="sr">(opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a><a href="https://github.com/charbileigh" target="_blank" rel="noopener noreferrer">GitHub <span class="sr">(opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#arrow-out"/></svg></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><span>© 2026 Mmasechaba Francesca Seopa</span><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a></footer>
+</body>
+</html>

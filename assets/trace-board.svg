@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="228" viewBox="0 0 540 228" fill="none">
+  <title>A miniature Petal Trace board with requirements, test cases and coverage</title>
+  <rect width="540" height="228" fill="#eedfdf"/>
+  <rect x="47" y="38" width="447" height="159" rx="5" fill="#e4cdd0"/>
+  <rect x="46.5" y="33.5" width="447" height="159" rx="5" fill="#fffcf7" stroke="#be9ca2"/>
+  <path d="M47 67h446" stroke="#d9c4c5"/>
+  <g fill="#975e70">
+    <circle cx="63" cy="50" r="2.8"/><circle cx="73" cy="50" r="2.8" opacity=".64"/><circle cx="83" cy="50" r="2.8" opacity=".36"/>
+  </g>
+  <text x="270" y="54" fill="#65525a" font-family="Arial, sans-serif" text-anchor="middle" font-size="12" letter-spacing=".25">Petal Trace</text>
+  <g font-family="Arial, sans-serif" font-size="10" fill="#6b6163" letter-spacing=".25">
+    <text x="64" y="90">Requirement</text><text x="293" y="90">Test cases</text><text x="386" y="90">Coverage</text>
+  </g>
+  <g stroke="#e6dcda"><path d="M64 99h411M64 127h411M64 156h411"/></g>
+  <g fill="#393239" font-family="Arial, sans-serif" font-size="11">
+    <text x="64" y="118">Create a customer account</text><text x="64" y="147">Sign in securely</text><text x="64" y="176">Reset a forgotten password</text>
+  </g>
+  <g fill="#75696a" font-family="monospace" font-size="10">
+    <text x="293" y="118">2 linked</text><text x="293" y="147">1 linked</text><text x="293" y="176">0 linked</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="10" fill="#556551">
+    <circle cx="390" cy="114" r="3" fill="#77846e"/><text x="399" y="118">Covered</text>
+    <circle cx="390" cy="143" r="3" fill="#77846e"/><text x="399" y="147">Covered</text>
+    <circle cx="390" cy="172" r="3" stroke="#a07078" fill="none"/><text x="399" y="176" fill="#895764">Gap</text>
+  </g>
+</svg>

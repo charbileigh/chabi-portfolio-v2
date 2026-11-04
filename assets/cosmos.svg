@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="294" viewBox="0 0 428 294" fill="none">
+  <title>Two cosmos flowers and a bud, drawn in rose ink</title>
+  <defs>
+    <g id="petal">
+      <path d="M-3-6C-10-16-18-30-21-44C-24-56-20-65-16-63C-12-62-12-67-8-68C-5-70-3-65 0-69C4-73 6-66 8-68C13-70 14-64 16-63C22-63 23-54 20-43C16-28 8-17 3-6Z" fill="currentColor" stroke="#754b53" stroke-width="1.15"/>
+      <g stroke="#9c6970" stroke-width=".7" stroke-linecap="round">
+        <path d="M-3-10Q-15-33-17-57M-1-10C-10-32-10-52-13-61M1-13C-3-30-4-50-6-63M2-19C2-34 1-53 1-65M4-17C10-32 13-48 12-60M6-19C13-31 17-45 18-53"/>
+        <path d="M-8-25Q-16-38-17-45M4-31Q8-44 8-51" opacity=".65"/>
+      </g>
+    </g>
+    <g id="disk" stroke="#765141" stroke-width=".65">
+      <path d="M-12-2Q-13-8-7-10Q-3-15 2-11Q10-13 11-7Q17-3 12 3Q13 9 7 10Q2 15-3 11Q-10 13-11 7Q-16 4-12-2Z" fill="#be956e"/>
+      <g fill="#e6c797">
+        <circle cx="-8" cy="-4" r="1.8"/><circle cx="-3" cy="-7" r="1.6"/><circle cx="3" cy="-8" r="1.8"/><circle cx="8" cy="-4" r="1.6"/>
+        <circle cx="-9" cy="2" r="1.6"/><circle cx="-4" cy="-1" r="1.7"/><circle cx="1" cy="-3" r="1.8"/><circle cx="6" cy="1" r="1.6"/>
+        <circle cx="10" cy="3" r="1.6"/><circle cx="-5" cy="6" r="1.8"/><circle cx="0" cy="4" r="1.7"/><circle cx="5" cy="7" r="1.8"/>
+      </g>
+    </g>
+    <g id="bloom" stroke-linejoin="round">
+      <use href="#petal" transform="rotate(8) scale(.92 1.01)" color="#e4b8b6"/>
+      <use href="#petal" transform="rotate(96) scale(1.03 .94)" color="#e8c2bd"/>
+      <use href="#petal" transform="rotate(180) scale(1.02 .96)" color="#ead0c9"/>
+      <use href="#petal" transform="rotate(270) scale(.98 1.02)" color="#e4b9b5"/>
+      <use href="#petal" transform="rotate(53) scale(1.02 1.02)" color="#eed0c7"/>
+      <use href="#petal" transform="rotate(138) scale(.99 .91)" color="#dbaba9"/>
+      <use href="#petal" transform="rotate(223) scale(.98 .99)" color="#e6bfba"/>
+      <use href="#petal" transform="rotate(314) scale(1.04 .94)" color="#efd4cc"/>
+      <use href="#disk"/>
+    </g>
+    <g id="sprig" fill="none" stroke="#74775d" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0C15-11 32-34 47-63" stroke-width="1.55"/>
+      <path d="M6-5Q11-20 6-37Q12-23 10-12M11-11Q25-17 40-17Q27-13 14-14M17-18Q19-33 16-48Q23-35 20-24M23-27Q39-30 48-38Q38-27 26-28M28-35Q31-47 30-60Q35-47 31-42M34-44Q46-47 53-55M39-51Q40-61 41-67" stroke-width="1.12"/>
+    </g>
+  </defs>
+  <!-- Registration marks sit outside the botanical drawing. -->
+  <g stroke="#bcb0a3" stroke-width=".8" opacity=".7">
+    <path d="M20 24h9m-4.5-4.5v9M399 24h9m-4.5-4.5v9M20 271h9m-4.5-4.5v9M399 271h9m-4.5-4.5v9"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M179 282C187 261 208 235 226 210C253 173 262 138 254 85" stroke="#62654e" stroke-width="2.9"/>
+    <path d="M179 282C188 261 209 235 227 210C252 176 261 139 254 87" stroke="#b3b198" stroke-width=".85"/>
+    <path d="M184 275C192 247 186 222 173 199C164 182 153 168 142 151" stroke="#6d6e55" stroke-width="2.3"/>
+    <path d="M185 274C193 246 186 222 174 200" stroke="#b0ac90" stroke-width=".7"/>
+    <path d="M195 251C211 236 240 228 261 215C277 205 291 187 307 162" stroke="#6d6e55" stroke-width="2"/>
+    <path d="M199 247C218 239 243 226 260 217" stroke="#aaa88d" stroke-width=".65"/>
+    <use href="#sprig" transform="translate(191 258) rotate(-83) scale(.82 .71)"/>
+    <use href="#sprig" transform="translate(225 211) rotate(19) scale(.72 .68)"/>
+    <use href="#sprig" transform="translate(186 233) rotate(-64) scale(.62 .58)"/>
+    <use href="#sprig" transform="translate(255 220) rotate(42) scale(.62 .54)"/>
+    <use href="#sprig" transform="translate(245 175) rotate(-49) scale(.63 .56)"/>
+    <use href="#sprig" transform="translate(270 209) rotate(1) scale(.45 .42)"/>
+    <path d="M142 153q-6-3-12-11q9 5 17-1l4 4q-4 6-9 8Z" fill="#889078" stroke="#646751"/>
+    <!-- A half-open bloom faces left. -->
+    <g transform="translate(140 146) rotate(-23) scale(.72 .72)">
+      <path d="M-1 2Q-24-4-41-21Q-56-37-52-43Q-47-46-42-39Q-45-56-37-53L-24-41Q-26-60-18-57L-6-37Q-3-63 3-59Q9-58 12-34Q21-53 25-47Q31-44 22-22Q34-38 40-34Q43-27 31-14Q15 1-1 2Z" fill="#e6c4bc" stroke="#80545a" stroke-width="1.5"/>
+      <g stroke="#96676a" stroke-width="1" fill="none">
+        <path d="M-2-1Q-32-16-48-41M0 0Q-28-25-38-49M0-1Q-19-27-18-54M3-1Q-6-27 2-55M7-2Q9-23 23-44M8-2Q26-17 37-30"/>
+        <path d="M-6-5Q-32-28-37-39M0-4Q-15-28-15-41M4-3Q3-23 5-37M10-4Q23-24 27-29"/>
+      </g>
+      <path d="M-11 0q5-9 13-8q11 1 17 0q-8 14-19 16q-5-5-11-8Z" fill="#92957b" stroke="#636751" stroke-width="1.3"/>
+      <path d="M-6-2l5 7l4-11l2 10l9-10" stroke="#666b53" stroke-width="1.1"/>
+    </g>
+    <!-- The unopened bud. -->
+    <g transform="translate(305 161) rotate(29)">
+      <path d="M0 3C-8-1-12-10-8-18C-6-24-3-28 0-27C5-30 11-20 10-13Q9-1 0 3Z" fill="#dcb5b0" stroke="#795660" stroke-width="1.2"/>
+      <path d="M0 2Q-3-12-6-20M0 2Q3-14 0-25M2-1Q7-14 6-20" stroke="#9c7574" stroke-width=".8"/>
+      <path d="M0 4Q-9 0-11-14Q-6-11-2-7Q-2-14-1-17Q3-10 3-5Q7-10 11-12Q9 1 0 4Z" fill="#93967a" stroke="#686b51" stroke-width="1"/>
+    </g>
+    <use href="#bloom" transform="translate(249 86) rotate(12) scale(1.03 .89)"/>
+  </g>
+</svg>
